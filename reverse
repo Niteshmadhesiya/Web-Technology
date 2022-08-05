@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<body>
+<head>
+</head>
+<input type="number" id="input_number" placeholder="Enter the number">
+<input type="button" value="Find" id="input_button" >
+<script>
+function findReverse(){
+    let number = Number(document.getElementById("input_number").value);
+
+    let reverse = Number(String(number).split('').reverse().join(''));
+
+    alert("Reverse : "+reverse);
+}
+
+
+let button=document.getElementById("input_button");
+button.onclick=findReverse;
+</script>
+</body>
+</html>
