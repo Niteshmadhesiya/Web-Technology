@@ -1,0 +1,13 @@
+
+<!DOCTYPE address [
+   <!ELEMENT address (#PCDATA)>
+   <!ENTITY name "nitesh madhesiya">
+   <!ENTITY company "TutorialsPoint">
+   <!ENTITY phone_no "(011) 123-4567">
+]>
+
+<address>
+   &name;
+   &company;
+   &phone_no;
+</address>
