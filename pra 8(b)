@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<body>
+<h2>javascript loop</h2>
+<p>The for in statement loops through the propeties of an object:</P>
+<p id="demo"></p>
+<script>
+const person={fname:"nitesh",lname:"Madhesiya",age:19};
+let txt="";
+for (let x in person){
+txt+=person[x]+"";
+}
+document.getElementById("demo").innerHTML=txt;
+</script>
+</body>
+</html>
