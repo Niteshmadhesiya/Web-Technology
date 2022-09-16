@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<body>
+<h2>javascript array</h2>
+<p id="demo"></p>
+<script>
+const cars=["Rolls Roys","BMW","MERCEDES"];
+document.getElementById("demo").innerHTML=cars;
+</script>
+</body>
+</html>
